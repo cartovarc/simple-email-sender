@@ -37,7 +37,7 @@ router.post('/send-email', function (req, res) {
     let email = req.body.email;
 
     mailOptions["subject"] = subject;
-    mailOptions["text"] = email + "sent you this message:\n" + text;
+    mailOptions["text"] = email + " sent you this message:\n" + text;
 
     transporter.sendMail(mailOptions, function (error, info) {
         if (error) {
