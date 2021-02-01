@@ -1,0 +1,5 @@
+{
+  "name": "simple-email-sender",
+  "description": "Simple email sender for contact form",
+  "keywords": ["node", "express", "email"]
+}
