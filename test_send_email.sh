@@ -1,4 +1,4 @@
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data '{"subject":"my subject","text":"text message :)", "email": "hello@world.com"}' \
-  http://localhost:3000/api/send-email
+  --data '{"subject":"my subject JOJOOJ","text":"text message :) JOJOJO", "email": "hello@world.com"}' \
+ http://utring.herokuapp.com/api/send-email

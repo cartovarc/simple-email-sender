@@ -5,7 +5,7 @@ var nodemailer = require('nodemailer');
 let environment = null;
 
 if (!process.env.ON_HEROKU) {
-    console.log("Loading environment variables from file...");
+    console.log("Loading environment variables from api.js file...");
     const env = require('node-env-file');
     env(__dirname + '/.env');
 }
